@@ -2,7 +2,7 @@ const vscode = require('vscode');
 const axios = require('axios');
 
 // Constants
-const GEMINI_API_KEY = "AIzaSyCy5XhqxbFGUp5uWG7yXnOt_X3z3ntE-NQ";
+const GEMINI_API_KEY = "[Insert Valid API Key here]"; // The api exceeded the limit, so have to update this
 const GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent";
 
 function confirmAndRoast(funPoints, roastDiagnostics, updateFunPoints) {
